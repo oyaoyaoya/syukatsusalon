@@ -2,6 +2,7 @@ Rails.application.routes.draw do
   get 'syukatsusalon/index'
   get 'syukatsusalon/top'
   get 'syukatsusalon/company' 
+  get 'syukatsusalon/profile'
  # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

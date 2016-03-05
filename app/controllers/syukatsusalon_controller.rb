@@ -3,4 +3,8 @@ class SyukatsusalonController < ApplicationController
   end
   def top
   end
+  def company
+  end
+  def profile
+  end
 end
