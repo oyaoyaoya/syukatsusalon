@@ -2,7 +2,7 @@
 
 }
 .tag{
-background-color: gray;
+background-color:#c0c0c0;
 border: 2px #808080 solid;
 }
 
@@ -18,7 +18,15 @@ display: inline-block;
   display: inline-block;
   vertical-align: top;
   height: 200px;
+  text-align: left;
+  padding: 2px;
+  width:800px;
   border:2px solid #333333;
+}
+button{
+  margin-top: 30px;
+  width:75px;
+  height:25px;
 }
 .profile .profile_title{
 
@@ -29,11 +37,69 @@ display: inline-block;
 .tag{
   margin-left : auto ;
 
-  	margin-right : auto ;
+    margin-left :500px;
+    width:300px;
+    border: solid 5px #fff; border-collapse: collapse;
+    margin-bottom: 50px;
+    color:white;
+
 }
+
+
+
+.interested{
+  margin-left: 600px;
+}
+
+table, td, th { border: 5px #fff solid;
+text-align: center;
+ }
+
+.company{
+
+}
+
+>>>>>>> 3b0a3748744294f50e429ffb446ea7cc5ba18b3b
 .go{
   text-align: center;
+<<<<<<< HEAD
 }
 .company{
   display: inline-block;
+=======
+    border:2px solid #333333;
+    width: 300px;
+    margin: auto;
+}
+
+.company1 ul{
+   display: block;
+margin-left: 100px;
+width:1200px;
+}
+
+.company1 li{
+display: inline-block;
+margin-left: 100px;
+}
+
+.company2 ul{
+  width: 1300px;
+  	margin: auto;
+  	overflow: hidden;
+}
+.company2 li{
+display: inline-block;
+margin-left: 150px;
+}
+
+.company3 ul{
+  width: 1300px;
+  	margin: auto;
+  	overflow: hidden;
+}
+.company3 li{
+display: inline-block;
+margin-left: 100px;
+>>>>>>> 3b0a3748744294f50e429ffb446ea7cc5ba18b3b
 }
