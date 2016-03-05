@@ -1,6 +1,5 @@
 .profileimg{
-padding-top: 100px;
-padding-left: 100px;
+
 }
 .tag{
 background-color: gray;
@@ -9,8 +8,7 @@ border: 2px #808080 solid;
 
 .profile{
 display: inline-block;
-margin-top: 100px;
-margin-left: 50px;
+
 }
 .profile img{
   display: inline-block;
@@ -20,10 +18,7 @@ margin-left: 50px;
   display: inline-block;
   vertical-align: top;
   height: 200px;
-  text-align: center;
-  width:800px;
   border:2px solid #333333;
-  margin-top: 100px;
 }
 .profile .profile_title{
 
@@ -31,63 +26,14 @@ margin-left: 50px;
 .profile_middle{
 
 }
-
-.btn{
-  margin-left: 200px;
-}
 .tag{
+  margin-left : auto ;
 
-  	margin-left :600px;
-    width:300px;
-    border: solid 1px #fff; border-collapse: collapse;
-    margin-bottom: 50px;
+  	margin-right : auto ;
 }
-
-
-
-table, td, th { border: 2px #fff solid;
-text-align: center;
- }
-
-.company{
-  margin-top: 100px;
-  padding-top: 100px;
-}
-
 .go{
-  margin-top: 50px;
   text-align: center;
-    border:2px solid #333333;
-    width: 125px;
-    margin: auto;
 }
-
-.company1 ul{
-   display: block;
-margin: auto;
-width:1200px;
-}
-
-.company1 li{
-display: inline-block;
-margin: auto;
-margin: auto;
-}
-
-.company2 ul{
-  width: 1300px;
-  	margin: auto;
-  	overflow: hidden;
-}
-.company2 li{
-display: inline-block;
-}
-
-.company3 ul{
-  width: 1300px;
-  	margin: auto;
-  	overflow: hidden;
-}
-.company3 li{
-display: inline-block;
+.company{
+  display: inline-block;
 }
