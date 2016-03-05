@@ -3,14 +3,17 @@
 
   <div class="profile_right">
     <div class="profile_title">profile</div>
-    <div class="profile__text">テキストテキストテキストテキストテキストテキスト</div>
+    <div class="profile__text">「■■大学◇◇部△△学科の●●と申します。学校では、XXXXXを専門としています。学業以外では●●部に所属し、■■に取り組み、△△の成績を収めました。本日はどうぞ宜しくお願いします。</div>
   </div>
 </div>
 
 
 <div class="profile_middle">
  <button class="btn">メッセージ</button>
-
+<div>
+<div>
+  <p class="interested">興味のある分野</p>
+</div>
  <table class = "tag">
 
   <tr>
@@ -33,11 +36,22 @@
     </tr>
 </table>
 </div>
+</div>
 <div class="company">
 <p class="go">行った企業</p>
 <ul class="company1">
  <li>
-   <a href=""><img src="<%= asset_path "dena.png" %>" class="1img"></a>
+
+
+
+
+
+ <%= link_to image_tag('/assets/dena.png', { :border => '0', :alt => 'リンクです'}), syukatsusalon_company_path %>
+
+
+
+
+
 </li>
 <li>
   <img src="<%= asset_path "jal.png" %>" class="1img">
