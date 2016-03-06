@@ -5,12 +5,14 @@
     <title>企業紹介ページ</title>
     <link rel="stylesheet" type="text/css" href="">
     <link rel="stylesheet" href="TRUNK HAKKASON2.css">
+
 </head>
 <body>
 
 <div id="container">
 
-<div id="header"><h1><img src="DENA2.png" height="250" width="600" background-color="blue"></h1></div>
+<div id="header"><h1>
+</div>
 
 <div id="menu">
 <ul style="list-style:none;">
@@ -26,6 +28,7 @@
 
 <div id="contents">
 <h2 id="company">企業情報</h2>
+<img src="<%= asset_path "dena.png" %>" >
 <p>
   会社概要
 
@@ -111,7 +114,10 @@ eコマース<br>
 
 <div id="sidebar">
 <h3 id="pick up people">PICK UP! 訪問した人</h3>
-<img src="<%= asset_path "profile.png" %>" class="profileimg">
+<div class ="tsuboi">
+  <img src="<%= asset_path "tsuboi.png" %>">
+</div>
+
 <p>こんにちは。<br>私の名前は坪井俊輔です。<br>
   ●DeNAに入社、辞めるまで<br>
   DeNAに入社して辞めるまでの1年11か月間、幸せなことに、毎日が学び・発見・挫折・挑戦、の連続。<br>
@@ -135,7 +141,7 @@ eコマース<br>
 </ul>
 
 <h3>南場智子さんのお話</h3>
-<img src="nanba.jpg" height="150" width="100" background-color="blue">
+<img src="<%= asset_path "bba.png" %>">
 <p>DENAについて</p>
 <p>1986年、津田塾大学卒業後、マッキンゼー・アンド・カンパニーに入社。<br>1990年、ハーバード・ビジネス・スクールにてMBAを取得し、1996年、マッキンゼーでパートナー（役員）に就任。<br>1999年に同社を退社して株式会社ディー・エヌ・エーを設立、代表取締役社長に就任。<br>2011年に代表取締役社長を退任。<br>取締役を経て、2015年6月、取締役会長に就任（現任）。<br>
 </p>
